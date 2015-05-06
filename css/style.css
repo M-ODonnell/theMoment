@@ -1,0 +1,83 @@
+
+
+body {
+    background-image: url("../images/clouds.jpg");
+    background-repeat: repeat-y;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+input, textarea {
+    max-width:100%;
+    height:auto;
+}
+
+.center {
+    margin-left: 33%;
+    margin-right: 30%;
+    margin-top: 15%;
+}
+
+.user_options {
+    text-align: center;
+    font-size: 2em;
+}
+
+.white {
+    background-color: #ffffff;
+    padding-left: 1%;
+    border: solid thin #000000;
+    padding-right: 2%;
+}
+
+.logo {
+    margin-left: 13%;
+}
+
+
+.menu {
+    margin-left: 15%;
+    font-size: 1.25em;
+
+}
+
+
+
+
+
+
+/*** Styles for Emotion Rating Input on emotrack.php ***/
+div#moods {font-size: 20px; margin: 0 auto;}
+div#moods li {list-style: none; display: inline;}
+div#moods ul { width: 530px;
+    background: -webkit-linear-gradient(left, #a8ff61, #bb4242); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left, #a8ff61, #bb4242); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left, #a8ff61, #bb4242); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left, #a8ff61, #bb4242); /* Standard syntax */}
+input#q2 {
+    width: 530px;
+}
+
+.footer {
+    margin-left: 15%;
+
+}
+
+.help {
+    margin-left: 15%;
+    font-size: 1.5em;
+}
+
+
+.help a:link {color:#CC0000; text-decoration: none;}      /* unvisited link */
+.help a:visited {color:#CC0000; text-decoration: none;}  /* visited link */
+.help a:hover {color:#CC0000; text-decoration: none;}  /* mouse over link */
+.help a:active {color:#CC0000; text-decoration: none;}  /* selected link */
+
+a:link {color:#2C63E6; text-decoration: none;}      /* unvisited link */
+a:visited {color:#2C63E6; text-decoration: none;}  /* visited link */
+a:hover {color:#2C63E6; text-decoration: none;}  /* mouse over link */
+a:active {color:#2C63E6; text-decoration: none;}  /* selected link */

@@ -1,0 +1,63 @@
+
+
+body {
+    background-image: url("../images/clouds.jpg");
+    background-repeat: repeat-y;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+input, textarea {
+    max-width:100%;
+    height:auto;
+}
+
+.center {
+    margin-left: 33%;
+    margin-right: 30%;
+    margin-top: 15%;
+}
+
+.user_options {
+    text-align: center;
+    font-size: 2em;
+}
+
+.white {
+    background-color: #ffffff;
+    padding: 1%;
+    border: solid thin #000000;
+}
+
+.logo {
+    margin-left: 13%;
+}
+
+
+.menu {
+    margin-left: 59.5%;
+    font-size: 1.5em;
+}
+
+.footer {
+    margin-left: 34%;
+    margin-right: 10%;
+}
+
+.help {
+    margin-left: 15%;
+    font-size: 1.5em;
+}
+
+.help a:link {color:#CC0000; text-decoration: none;}      /* unvisited link */
+.help a:visited {color:#CC0000; text-decoration: none;}  /* visited link */
+.help a:hover {color:#CC0000; text-decoration: none;}  /* mouse over link */
+.help a:active {color:#CC0000; text-decoration: none;}  /* selected link */
+
+a:link {color:#2C63E6; text-decoration: none;}      /* unvisited link */
+a:visited {color:#2C63E6; text-decoration: none;}  /* visited link */
+a:hover {color:#2C63E6; text-decoration: none;}  /* mouse over link */
+a:active {color:#2C63E6; text-decoration: none;}  /* selected link */
